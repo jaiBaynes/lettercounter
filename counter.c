@@ -51,7 +51,7 @@ int main()
   // Output the number of other characters
   printf("%-10s%-15d%-15.2f\n","Other",
                               other,
-                              (((float) count[i]) / strlen(buffer)) * 100);
+                              (((float) other) / strlen(buffer)) * 100);
 
   // Find the max and min occuring character in the string, in particular the
   // position in the count array of each character
